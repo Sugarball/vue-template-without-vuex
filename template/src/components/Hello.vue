@@ -22,7 +22,7 @@ export default {
         console.log('hello', this.$http)
         // this.$http(
         //   {
-        //     url: 'https://zjsy.sliver-square.com/zjsy-2.0/api/common/activity/listMyEnroll', 
+        //     url: 'https://localhost/test', 
         //     method: 'POST'
         //   }
         // ).then(function (response) {

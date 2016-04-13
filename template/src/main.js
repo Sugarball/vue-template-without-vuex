@@ -4,6 +4,7 @@ import VueResource from 'vue-resource'
 import { configRouter } from './route-config'
 require('es6-promise').polyfill()
 
+
 Vue.use(VueRouter)
 Vue.use(VueResource)
 

@@ -11,24 +11,25 @@
 export default {}
 </script>
 
+<style src="../node_modules/bootstrap/dist/css/bootstrap.css"></style>
 <style lang="scss">
-html{
-  height: 100%;
-}
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  #app {
-    margin-top: -100px;
-    max-width: 600px;
-    font-family: Helvetica, sans-serif;
-    text-align: center;
+  html{
+    height: 100%;
   }
-  .logo {
-    width: 100px;
-    height: 100px
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    #app {
+      margin-top: -100px;
+      max-width: 600px;
+      font-family: Helvetica, sans-serif;
+      text-align: center;
+    }
+    .logo {
+      width: 100px;
+      height: 100px
+    }
   }
-}
 </style>
